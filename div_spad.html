@@ -10,39 +10,41 @@
 
 <body>
     <form action="#" method="post">
-        <table width="100%" border="1px solid black">
+        <table width="100%" border="2px solid black">
             <tr>
-                <td colspan="2" style="background-color: gray;">
+                <td colspan="2" style="background-color: gray; border: 0; width: 100%;">
                     <h2>Tell us about yourself</h2>
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
+                <td colspan="2" style="border: 0px;">
                     <h4>Profile Infomation</h4>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="border: 0px;">
                     <div>Last Name</div> <input type="text" name="LastName" style="width: 90%;" /></td>
-                <td>
+                <td style="border: 0px;">
                     <div>First Name</div> <input type="text" name="FirstName" style="width: 90%;" /></td>
             </tr>
             <tr>
-                <td>
+                <td style="border: 0px;">
                     <div>Email</div> <input type="text" style="width: 90%;" /></td>
-                <td>
+                <td style="border: 0px;">
                     <div>Phone</div> <input type="text" style="width: 90%;" /></td>
             </tr>
             <tr>
-                <td colspan="2">
-                    <span>Gender</span>
-                    <input type="radio" name="gender" value="Male" />Male
+                <td colspan="2" style="border: 0px;">
+                    <span>Gender</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="Male" />Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="radio" name="gender" value="female" />Female
+                    <hr style="border: 1px solid black;">
                 </td>
             </tr>
+
             <tr>
-                <td colspan="2">
-                    <table width="100%">
+                <td colspan="2" style="border: 0px;">
+                    <table width="100%" cellspacing="8px">
                         <tr>`
                             <td colspan="3">
                                 <h4>Current Address</h4>
@@ -50,7 +52,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <select name="province" style="width: 100%;">
+                                <select name="province" style="width: 90%;">
                                         <option value="" disabled selected>Province/City</option>
                                         <option value="SvayRieng">Svay Rieng</option>
                                         <option value="Thbongkhmom">Thbong Khmom</option>
@@ -58,40 +60,44 @@
                                     </select>
                             </td>
                             <td>
-                                <select name="country" style="width:80%; margin-left: 5px;">
+                                <select name="country" style="width:90%; margin-left: 5px;">
                                         <option value="Cambodia">Cambodia</option>
                                     </select>
                             </td>
 
-                            <td><input type="text" placeholder="Post code" style="width: 90%;" /></td>
+                            <td><input type="text" placeholder="Post code" style="margin-left: 40px; width: 85%;" /></td>
 
                         </tr>
                         <tr>
                             <td colspan="3">
-                                <textarea width="100%" name=" address " cols="90" rows="5"></textarea></td>
+                                <textarea width="100%" name=" address " cols="100" rows="5" placeholder="Address" style="margin-left: 0px; margin-right: 0px; width: 1249px; height: 71px;"></textarea></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="border: 0px;">
                     <h4>Skill</h4>
                 </td>
-                <td><span>Langugaue</span></td>
-            </tr>
-            <tr>
-                <td colspan="2 ">
-                    <div><input type="checkbox"><span>Design</span><input type="checkbox"><span>Database Mangement</span> <input type="checkbox"> <span>English</span><input type="checkbox"><span>Chinniess</span></div>
-                    <input type="checkbox"> <span>Coding</span><input type="checkbox"><span>Debeg</span> <input type="checkbox"> <span>French</span>
+                <td style="border: 0px;">
+                    <h4>Langugaue</h4>
                 </td>
             </tr>
             <tr>
-                <td colspan="2 ">
+                <td colspan="2 " style="border: 0px;">
+                    <pre style=" font-size: 15px;">
+                        <div><input type="checkbox"> <span>Design</span>                         <input type="checkbox"> <span>Database Mangement</span>                          <input type="checkbox"> <span>English</span>                <input type="checkbox"> <span>Chiniess</span>
+                        </div><input type="checkbox"> <span>Coding</span>                         <input type="checkbox"> <span>Debeg</span>                                       <input type="checkbox"> <span>French</span>
+                    </pre>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: 0px;">
                     <h4>Experience</h4>
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
+                <td colspan="2" style="border: 0px;">
                     <table width="100%">
                         <tr>
                             <td><span>From</span></td>
@@ -99,44 +105,49 @@
                             <td><span>Decription</span></td>
                         </tr>
                         <tr>
-                            <td><input type="text" /></td>
-                            <td><input type="text" /></td>
-                            <td><input type="text" /></td>
+                            <td><input type="text" style="width: 60%;" /></td>
+                            <td><input type="text" style="width: 70%;" /></td>
+                            <td><input type="text" style="width: 90%;" /></td>
                         </tr>
                         <tr>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
+                            <td><input type="text" style="width: 60%;" /></td>
+                            <td><input type="text" style="width: 70%;" /></td>
+                            <td><input type="text" style="width: 90%;" /></td>
                         </tr>
                         <tr>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
+                            <td><input type="text" style="width: 60%;" /></td>
+                            <td><input type="text" style="width: 70%;" /></td>
+                            <td><input type="text" style="width: 90%;" /></td>
                         </tr>
                         <tr>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
+                            <td><input type="text" style="width: 60%;" /></td>
+                            <td><input type="text" style="width: 70%;" /></td>
+                            <td><input type="text" style="width: 90%;" /></td>
                         </tr>
                         <tr>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
-                            <td><input type="text " /></td>
+                            <td><input type="text" style="width: 60%;" /></td>
+                            <td><input type="text" style="width: 70%;" /></td>
+                            <td><input type="text" style="width: 90%;" /></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2 ">
-                    <span>Choose Your profile</span>
+                <td colspan="2" style="border: 0px;">
+                    <p>Choose Your profile</p>
                 </td>
             </tr>
             <tr>
-                <td colspan="2"> <input type="file" multiple/></td>
+                <td colspan="2" style="border: 0px;"> <input type="file" multiple/></td>
             </tr>
             <tr>
-                <td colspan="2 ">
-                    <div style="float: right;"><input type="submit" style="background-color: green;" /></div>
+                <td colspan="2" style="border: 0px;">
+                    <div style="float: right; padding-right: 3%;"><input type="submit" style="background-color: #57adfd; padding: 5px;" /></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="gray" style="border: 0px; width: 100%; height:25px;">
+
                 </td>
             </tr>
         </table>
